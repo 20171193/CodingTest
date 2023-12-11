@@ -23,40 +23,40 @@ vector<int> vec[1001];
 vector<int> printVec;
 
 void DFS(int node) {
-	// ver. 재귀
-	visited[node] = true;
-	cout << node << " ";
-	for (int i = 0; i < vec[node].size(); i++) {
-		if (visited[vec[node][i]]) continue;
-		DFS(vec[node][i]);
+	//// ver. 재귀
+	//visited[node] = true;
+	//cout << node << " ";
+	//for (int i = 0; i < vec[node].size(); i++) {
+	//	if (visited[vec[node][i]]) continue;
+	//	DFS(vec[node][i]);
+	//}
+
+	// ver. 스택
+	stack<int> st;
+	st.push(node);
+
+	while (st.size()) {
+		int temp = st.top();
+		if (!visited[temp]) {
+
+			visited[temp] = 1;
+			printVec.push_back(temp);
+
+			for (auto iter = vec[temp].rbegin(); iter != vec[temp].rend(); iter++) {
+				if (visited[*iter]) continue;
+
+				st.push(*iter);
+			}
+		}
+		else 
+			st.pop();
 	}
 
-	//// ver. 스택
-	//stack<int> st;
-	//st.push(node);
-
-	//while (st.size()) {
-	//	int temp = st.top();
-	//	if (!visited[temp]) {
-
-	//		visited[temp] = 1;
-	//		printVec.push_back(temp);
-
-	//		for (auto iter = vec[temp].rbegin(); iter != vec[temp].rend(); iter++) {
-	//			if (visited[*iter]) continue;
-
-	//			st.push(*iter);
-	//		}
-	//	}
-	//	else 
-	//		st.pop();
-	//}
-
-	//// 출력
-	//for (int i : printVec) {
-	//	cout << i << " ";
-	//}
-	//printVec.clear();
+	// 출력
+	for (int i : printVec) {
+		cout << i << " ";
+	}
+	printVec.clear();
 }
 
 void BFS(int node) {
