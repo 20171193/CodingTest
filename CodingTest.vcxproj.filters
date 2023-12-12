@@ -6,17 +6,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Baekjoon2583.cpp">
-      <Filter>DFSandBFS</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon2828.cpp">
-      <Filter>DFSandBFS</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon3474.cpp">
-      <Filter>DFSandBFS</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon1260.cpp">
-      <Filter>DFSandBFS</Filter>
-    </ClCompile>
+    <ClCompile Include="DFSandBFS\Baekjoon1260.cpp" />
+    <ClCompile Include="DFSandBFS\Baekjoon2583.cpp" />
+    <ClCompile Include="DFSandBFS\Baekjoon2828.cpp" />
+    <ClCompile Include="DFSandBFS\Baekjoon3474.cpp" />
+    <ClCompile Include="etc\Baekjoon2609.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
