@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="DFS and BFS">
+    <Filter Include="DFSandBFS">
       <UniqueIdentifier>{83df8d22-77ad-4f3b-870d-97812bf5c630}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon2583.cpp">
-      <Filter>DFS and BFS</Filter>
+      <Filter>DFSandBFS</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon2828.cpp">
-      <Filter>DFS and BFS</Filter>
+      <Filter>DFSandBFS</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon3474.cpp">
-      <Filter>DFS and BFS</Filter>
+      <Filter>DFSandBFS</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon1260.cpp">
-      <Filter>DFS and BFS</Filter>
+      <Filter>DFSandBFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
