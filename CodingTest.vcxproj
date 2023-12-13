@@ -132,6 +132,8 @@
     <ClCompile Include="DFSandBFS\Baekjoon2828.cpp" />
     <ClCompile Include="DFSandBFS\Baekjoon3474.cpp" />
     <ClCompile Include="etc\Baekjoon2609.cpp" />
+    <ClCompile Include="KGA\karel.cpp" />
+    <ClCompile Include="KGA\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
