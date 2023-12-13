@@ -67,42 +67,59 @@ private:
 
 public:
 	// action
-	void turnLeft() {
+	void TurnLeft() {
 		karel.d = (karel.d + 1) % 4;
-		myMap[karel.y][karel.x] = agentDir[karel.d];
+		if(!BeepersPresent()) myMap[karel.y][karel.x] = agentDir[karel.d];
 		Render();
 	}
 	void Move() {
 		int _x = karel.x + dx[karel.d];
 		int _y = karel.y + dy[karel.d];
-		if (checkClear(_x, _y)) {
-			cout << "Front Is Block!!" << '\n';
+		if (!checkClear(_x, _y)) {
+			for (int i = 0; i < 4; i++){
+				Sleep(200);
+				system("cls");
+				cout << "Front Is Block!";
+				for (int j = 0; j < i; j++) {
+					cout << " !";
+				}
+				cout << "\n";
+			}
+			Sleep(1000);
+			system("cls");
+			Sleep(50);
+			cout << "--------------------------\n";
+			cout << "--------------------------\n";
+			cout << "--------------------------\n";
+			cout << "          ½ÇÆÐ!!          \n";
+			cout << "--------------------------\n";
+			cout << "--------------------------\n";
+			cout << "--------------------------\n";
+			system("pause");
 			return;
 		}
-		if (myMap[karel.y][karel.x] != beeper) {
-			myMap[karel.y][karel.x] = road;
-			karel.x = _x;  karel.y = _y;
-			myMap[karel.y][karel.x] = agentDir[karel.d];
-		}
+		if (myMap[karel.y][karel.x] != beeper) myMap[karel.y][karel.x] = road;
+		if(myMap[_y][_x] != beeper) myMap[_y][_x] = agentDir[karel.d];
+		karel.x = _x;  karel.y = _y;
 
-
+		Render();
 	}
 
 public:
 	// facing
-	bool facingNorth() {
+	bool FacingNorth() {
 		if (karel.d == 1) return true;
 		return false;
 	}
-	bool facingEast() {
+	bool FacingEast() {
 		if (karel.d == 0) return true;
 		return false;
 	}
-	bool facingSouth() {
+	bool FacingSouth() {
 		if (karel.d == 2) return true;
 		return false;
 	}
-	bool facingWest() {
+	bool FacingWest() {
 		if (karel.d == 3) return true;
 		return false;
 	}
@@ -110,33 +127,40 @@ public:
 private:
 	// check next position
 	bool checkClear(int nx, int ny) {
-		if (nx > width || nx < 0 || ny > height || ny < 0) return true;
-		return false;
+		if (nx >= width || nx < 0 || ny >= height || ny < 0) return false;
+		return true;
 	}
 public:
-	bool frontIsClear() {
+	bool FrontIsClear() {
 		int _x = dx[karel.d] + karel.x;
 		int _y = dy[karel.d] + karel.y;
 		return checkClear(_x, _y);
 	}
-	bool leftIsClear() {
+	bool LeftIsClear() {
 		int _x = dx[(karel.d + 1) % 4] + karel.x;
 		int _y = dy[(karel.d + 1) % 4] + karel.y;
 		return checkClear(_x, _y);
 	}
-	bool rightIsClear() {
+	bool RightIsClear() {
 		int _x = dx[(karel.d + 3) % 4] + karel.x;
 		int _y = dy[(karel.d + 3) % 4] + karel.y;
 		return checkClear(_x, _y);
 	}
 
+	bool BeepersPresent() {
+		if (myMap[karel.y][karel.x] == beeper) return true;
+		return false;
+	}
+
 public:
 	// Beeper 
-	void putBeeper() {
+	void PutBeeper() {
 		myMap[karel.y][karel.x] = beeper;
+		Render();
 	}
-	void pickBeeper() {
+	void PickBeeper() {
 		myMap[karel.y][karel.x] = agentDir[karel.d];
+		Render();
 	}
 
 	// check game clear
@@ -160,13 +184,66 @@ private:
 
 KarelGame *game;
 
+// Karel commands
+void move() { game->Move(); }
+void turnLeft() { game->TurnLeft(); }
+void putBeeper() { game->PutBeeper(); }
+void pickBeeper() { game->PickBeeper(); }
+
+// Karel conditions
+bool frontIsClear() { return game->FrontIsClear(); }
+bool leftIsClear() {  return game->LeftIsClear(); }
+bool rightIsClear() { return game->RightIsClear(); }
+bool facingNorth() { return game->FacingNorth(); }
+bool facingEast() {  return game->FacingEast(); }
+bool facingSouth() { return game->FacingSouth(); }
+bool facingWest() {  return game->FacingWest(); }
+bool beepersPresent() { return game->BeepersPresent(); }
+
+
 // CustomFunction
 void goStaright() {
+	while (frontIsClear()) {
+		move();
+	}
+}
+void goStarightForBeeper() {
+	while (!beepersPresent()) {
+		move();
+	}
 }
 void turnRight() {
-	game->turnLeft();
-	game->turnLeft();
-	game->turnLeft();
+	turnLeft();
+	turnLeft();
+	turnLeft();
+}
+void turnAround() {
+	turnLeft(); 
+	turnLeft();
+}
+void moveBack() {
+	turnAround();
+	move();
+	turnAround();
+}
+
+bool backIsClear() {
+	turnAround();
+	if (frontIsClear()) {
+		turnAround();
+		return true;
+	}
+	turnAround();
+	return false;
+}
+bool frontBeeperCheck() {
+	move();
+	if (beepersPresent()) {
+		moveBack();
+		return true;
+	}
+	moveBack();
+	return false;
 }
 
 int main() {
@@ -179,8 +256,32 @@ int main() {
 	}
 	game = new KarelGame(w,h);
 
-	// input
-	turnRight();
+	putBeeper();
+	goStaright();
+	putBeeper();
+	turnAround();
+
+	move();
+
+	while (!frontBeeperCheck()) {
+		goStarightForBeeper();
+		pickBeeper();
+		moveBack();
+		putBeeper();
+		turnAround();
+
+		move();
+	}
+
+	putBeeper();
+	move();
+	pickBeeper();
+	turnAround();
+	move();
+	move();
+	pickBeeper();
+	goStaright();
+
 
 	// check game result
 	Sleep(200);
