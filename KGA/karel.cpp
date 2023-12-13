@@ -202,12 +202,12 @@ bool beepersPresent() { return game->BeepersPresent(); }
 
 
 // CustomFunction
-void goStaright() {
+void goStraight() {
 	while (frontIsClear()) {
 		move();
 	}
 }
-void goStarightForBeeper() {
+void goStraightForBeeper() {
 	while (!beepersPresent()) {
 		move();
 	}
@@ -227,25 +227,6 @@ void moveBack() {
 	turnAround();
 }
 
-bool backIsClear() {
-	turnAround();
-	if (frontIsClear()) {
-		turnAround();
-		return true;
-	}
-	turnAround();
-	return false;
-}
-bool frontBeeperCheck() {
-	move();
-	if (beepersPresent()) {
-		moveBack();
-		return true;
-	}
-	moveBack();
-	return false;
-}
-
 int main() {
 	int w = 0, h = 0;
 	cout << "너비와 높이를 입력하시오. (1 <= 너비(*홀수),높이 <= 100)\n";
@@ -257,14 +238,14 @@ int main() {
 	game = new KarelGame(w,h);
 
 	putBeeper();
-	goStaright();
+	goStraight();
 	putBeeper();
 	turnAround();
 
 	move();
 
-	while (!frontBeeperCheck()) {
-		goStarightForBeeper();
+	while (!beepersPresent()) {
+		goStraightForBeeper();
 		pickBeeper();
 		moveBack();
 		putBeeper();
@@ -273,15 +254,8 @@ int main() {
 		move();
 	}
 
-	putBeeper();
-	move();
 	pickBeeper();
-	turnAround();
-	move();
-	move();
-	pickBeeper();
-	goStaright();
-
+	goStraight();
 
 	// check game result
 	Sleep(200);
