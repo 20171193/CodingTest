@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DFSandBFS\Baekjoon1260.cpp" />
-    <ClCompile Include="DFSandBFS\Baekjoon2583.cpp" />
-    <ClCompile Include="DFSandBFS\Baekjoon2828.cpp" />
-    <ClCompile Include="DFSandBFS\Baekjoon3474.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon1260.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon2583.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon2667.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon2828.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon3474.cpp" />
     <ClCompile Include="etc\Baekjoon2609.cpp" />
     <ClCompile Include="KGA\karel.cpp" />
     <ClCompile Include="KGA\main.cpp" />

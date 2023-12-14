@@ -1,8 +1,8 @@
 ﻿  Baekjoon1260.cpp
   Baekjoon2583.cpp
+  Baekjoon2667.cpp
   Baekjoon2828.cpp
   Baekjoon3474.cpp
-  Baekjoon2609.cpp
+  karel.cpp
   코드를 생성하고 있습니다...
-Baekjoon2609.obj : error LNK2005: main이(가) Baekjoon1260.obj에 이미 정의되어 있습니다.
-C:\Users\SHIMNALDO\source\repos\codingtest\x64\Debug\CodingTest.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+  CodingTest.vcxproj -> C:\Users\SHIMNALDO\source\repos\codingtest\x64\Debug\CodingTest.exe
