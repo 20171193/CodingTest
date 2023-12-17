@@ -133,8 +133,7 @@
     <ClCompile Include="GraphSearch\Baekjoon2828.cpp" />
     <ClCompile Include="GraphSearch\Baekjoon3474.cpp" />
     <ClCompile Include="etc\Baekjoon2609.cpp" />
-    <ClCompile Include="KGA\karel.cpp" />
-    <ClCompile Include="KGA\main.cpp" />
+    <ClCompile Include="GraphSearch\Baekjoon9205.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
