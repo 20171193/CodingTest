@@ -6,13 +6,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphSearch\Baekjoon1260.cpp" />
-    <ClCompile Include="GraphSearch\Baekjoon2583.cpp" />
-    <ClCompile Include="GraphSearch\Baekjoon2828.cpp" />
-    <ClCompile Include="GraphSearch\Baekjoon3474.cpp" />
-    <ClCompile Include="etc\Baekjoon2609.cpp" />
-    <ClCompile Include="GraphSearch\Baekjoon2667.cpp" />
-    <ClCompile Include="GraphSearch\Baekjoon9205.cpp" />
+    <ClCompile Include="01. GraphSearch\01. Baekjoon 1260\Baekjoon1260.cpp" />
+    <ClCompile Include="01. GraphSearch\03. Baekjoon 2583\Baekjoon2583.cpp" />
+    <ClCompile Include="01. GraphSearch\05. Baekjoon 2828\Baekjoon2828.cpp" />
+    <ClCompile Include="01. GraphSearch\06. Baekjoon 3474\Baekjoon3474.cpp" />
+    <ClCompile Include="00. ETC\01. Baekjoon2609\Baekjoon2609.cpp" />
+    <ClCompile Include="01. GraphSearch\04. Baekjoon 2667\Baekjoon2667.cpp" />
+    <ClCompile Include="01. GraphSearch\07. Baekjoon 9205\Baekjoon9205.cpp" />
+    <ClCompile Include="01. GraphSearch\08. Baekjoon 14503\Baekjoon14503ing.cpp" />
+    <ClCompile Include="01. GraphSearch\02. Baekjoon 1926\Baekjoon1926.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
