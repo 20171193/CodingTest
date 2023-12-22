@@ -1,2 +1,15 @@
-﻿  Baekjoon14503ing.cpp
-  CodingTest.vcxproj -> C:\Users\SHIMNALDO\source\repos\CodingTest\x64\Debug\CodingTest.exe
+﻿  Baekjoon1260.cpp
+  Baekjoon14503ing.cpp
+  Baekjoon2583.cpp
+  Baekjoon2667.cpp
+  Baekjoon2828.cpp
+  Baekjoon3474.cpp
+C:\Users\SHIMNALDO\source\repos\codingtest\CodingTest\01. GraphSearch\06. Baekjoon 3474\Baekjoon3474.cpp(38,3): error C2059: 구문 오류: '}'
+  Baekjoon2609.cpp
+  Baekjoon9205.cpp
+  Baekjoon2666.cpp
+  Baekjoon17822ing.cpp
+  source01.cpp
+  source02.cpp
+  코드를 생성하고 있습니다...
+C:\Users\SHIMNALDO\source\repos\codingtest\CodingTest\04. Stack and Queue\01. Programmers\source02.cpp(39): error C4716: 'solution': 값을 반환해야 합니다.
