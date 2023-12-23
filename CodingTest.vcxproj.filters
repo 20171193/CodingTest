@@ -20,6 +20,7 @@
     <ClCompile Include="04. Stack and Queue\01. Programmers\source01.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source02ing.cpp" />
     <ClCompile Include="05. Bitmasking\01. Programmers\source1.cpp" />
+    <ClCompile Include="06. Map\01. Programmers\source1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
