@@ -18,7 +18,8 @@
     <ClCompile Include="02. DP\01. Baekjoon 2666\Baekjoon2666.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source01.cpp" />
-    <ClCompile Include="04. Stack and Queue\01. Programmers\source02.cpp" />
+    <ClCompile Include="04. Stack and Queue\01. Programmers\source02ing.cpp" />
+    <ClCompile Include="05. Bitmasking\01. Programmers\source1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
