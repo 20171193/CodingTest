@@ -23,6 +23,8 @@
     <ClCompile Include="06. Map\01. Programmers\source1.cpp" />
     <ClCompile Include="00. ETC\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
+    <ClCompile Include="05. Bitmasking\01. Programmers\source2.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

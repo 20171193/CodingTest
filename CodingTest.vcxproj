@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="00. ETC\00. Programmers\source1.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source2.cpp" />
     <ClCompile Include="01. GraphSearch\01. Baekjoon 1260\Baekjoon1260.cpp" />
     <ClCompile Include="01. GraphSearch\08. Baekjoon 14503\Baekjoon14503ing.cpp" />
     <ClCompile Include="01. GraphSearch\02. Baekjoon 1926\Baekjoon1926.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="04. Stack and Queue\01. Programmers\source01.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source02ing.cpp" />
     <ClCompile Include="05. Bitmasking\01. Programmers\source1.cpp" />
+    <ClCompile Include="05. Bitmasking\01. Programmers\source2.cpp" />
     <ClCompile Include="06. Map\01. Programmers\source1.cpp" />
   </ItemGroup>
   <ItemGroup>
