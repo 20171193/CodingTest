@@ -130,8 +130,9 @@
     <ClCompile Include="00. ETC\00. Programmers\source1.cpp" />
     <ClCompile Include="00. ETC\00. Programmers\source2.cpp" />
     <ClCompile Include="00. ETC\02. Baekjoon11047\Baekjoon11047.cpp" />
+    <ClCompile Include="01. GraphSearch\00. Programmers\source1.cpp" />
     <ClCompile Include="01. GraphSearch\01. Baekjoon 1260\Baekjoon1260.cpp" />
-    <ClCompile Include="01. GraphSearch\08. Baekjoon 14503\Baekjoon14503ing.cpp" />
+    <ClCompile Include="01. GraphSearch\08. Baekjoon 14503\Baekjoon14503.cpp" />
     <ClCompile Include="01. GraphSearch\02. Baekjoon 1926\Baekjoon1926.cpp" />
     <ClCompile Include="01. GraphSearch\03. Baekjoon 2583\Baekjoon2583.cpp" />
     <ClCompile Include="01. GraphSearch\04. Baekjoon 2667\Baekjoon2667.cpp" />
