@@ -31,6 +31,8 @@
     <ClCompile Include="05. Bitmasking\02. Baekjoon 20304\Baekjoon20304ing.cpp" />
     <ClCompile Include="01. GraphSearch\00. Programmers\source1.cpp" />
     <ClCompile Include="01. GraphSearch\11. Baekjoon 2573\Baekjoon2573.cpp" />
+    <ClCompile Include="01. GraphSearch\12. Baekjoon 9328\Baekjoon9328.cpp" />
+    <ClCompile Include="04. Stack and Queue\02. Baekjoon 1874\Baekjoon1874.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
