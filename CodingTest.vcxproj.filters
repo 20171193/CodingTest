@@ -33,6 +33,8 @@
     <ClCompile Include="01. GraphSearch\11. Baekjoon 2573\Baekjoon2573.cpp" />
     <ClCompile Include="01. GraphSearch\12. Baekjoon 9328\Baekjoon9328.cpp" />
     <ClCompile Include="04. Stack and Queue\02. Baekjoon 1874\Baekjoon1874.cpp" />
+    <ClCompile Include="04. Stack and Queue\03. Baekjoon 2493\Baekjoon2493.cpp" />
+    <ClCompile Include="04. Stack and Queue\00. Prioriy Queue\01. Programmers\source1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

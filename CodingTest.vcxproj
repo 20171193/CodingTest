@@ -147,9 +147,11 @@
     <ClCompile Include="02. DP\01. Baekjoon 2666\Baekjoon2666.cpp" />
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
+    <ClCompile Include="04. Stack and Queue\00. Prioriy Queue\01. Programmers\source1.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source01.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source02ing.cpp" />
     <ClCompile Include="04. Stack and Queue\02. Baekjoon 1874\Baekjoon1874.cpp" />
+    <ClCompile Include="04. Stack and Queue\03. Baekjoon 2493\Baekjoon2493.cpp" />
     <ClCompile Include="05. Bitmasking\01. Programmers\source1.cpp" />
     <ClCompile Include="05. Bitmasking\01. Programmers\source2.cpp" />
     <ClCompile Include="05. Bitmasking\02. Baekjoon 20304\Baekjoon20304ing.cpp" />
