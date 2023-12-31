@@ -8,7 +8,7 @@ using namespace std;
 vector<int> solution(vector<int> prices) {
     vector<int> answer(prices.size());
 
-    stack<pair<int, int>> own;
+    stack<pair<int, int>> own;  // pair = {¿Œµ¶Ω∫,∞°∞›}
 
     int curP = 0;
     for (int i = 0; i < prices.size(); i++)
