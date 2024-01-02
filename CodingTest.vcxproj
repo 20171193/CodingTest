@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="00. ETC\00. Programmers\source1.cpp" />
     <ClCompile Include="00. ETC\00. Programmers\source2.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source3.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source4.cpp" />
     <ClCompile Include="00. ETC\02. Baekjoon11047\Baekjoon11047.cpp" />
     <ClCompile Include="01. GraphSearch\00. Programmers\source1.cpp" />
     <ClCompile Include="01. GraphSearch\01. Baekjoon 1260\Baekjoon1260.cpp" />

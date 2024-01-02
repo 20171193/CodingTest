@@ -38,6 +38,8 @@
     <ClCompile Include="04. Stack and Queue\01. Programmers\source3.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source4.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source5.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source3.cpp" />
+    <ClCompile Include="00. ETC\00. Programmers\source4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
