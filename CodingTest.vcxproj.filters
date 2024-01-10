@@ -44,6 +44,10 @@
     <ClCompile Include="06. Map\01. Programmers\source2.cpp" />
     <ClCompile Include="01. GraphSearch\13. Baekjoon 7576\Baekjoon7576.cpp" />
     <ClCompile Include="01. GraphSearch\14. Baekjoon 1697\Baekjoon1697.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon15649.cpp" />
+    <ClCompile Include="07. BackTracking\BackTracking.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon6603.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon15650.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

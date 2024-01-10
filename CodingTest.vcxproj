@@ -165,6 +165,10 @@
     <ClCompile Include="05. Bitmasking\02. Baekjoon 20304\Baekjoon20304ing.cpp" />
     <ClCompile Include="06. Map\01. Programmers\source1.cpp" />
     <ClCompile Include="06. Map\01. Programmers\source2.cpp" />
+    <ClCompile Include="07. BackTracking\BackTracking.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon15649.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon15650.cpp" />
+    <ClCompile Include="07. BackTracking\baekjoon6603.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
