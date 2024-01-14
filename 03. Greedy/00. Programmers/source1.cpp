@@ -1,3 +1,4 @@
+// 프로그래머스 레벨2 구명보트
 #include <string>
 #include <vector>
 #include <algorithm>
