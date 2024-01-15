@@ -49,6 +49,7 @@
     <ClCompile Include="07. BackTracking\baekjoon6603.cpp" />
     <ClCompile Include="07. BackTracking\baekjoon15650.cpp" />
     <ClCompile Include="00. ETC\00. Programmers\source6.cpp" />
+    <ClCompile Include="00. ETC\03. Baekjoon4386\Baekjoon4386.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
