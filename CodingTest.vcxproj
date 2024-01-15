@@ -151,6 +151,7 @@
     <ClCompile Include="01. GraphSearch\12. Baekjoon 9328\Baekjoon9328.cpp" />
     <ClCompile Include="01. GraphSearch\13. Baekjoon 7576\Baekjoon7576.cpp" />
     <ClCompile Include="01. GraphSearch\14. Baekjoon 1697\Baekjoon1697.cpp" />
+    <ClCompile Include="02. DP\00. Programmers\source3.cpp" />
     <ClCompile Include="02. DP\01. Baekjoon 2666\Baekjoon2666.cpp" />
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
