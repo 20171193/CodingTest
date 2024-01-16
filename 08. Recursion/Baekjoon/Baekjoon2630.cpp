@@ -5,6 +5,7 @@
 
 // 분할정복, 재귀 풀이
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int n, white = 0, blue = 0, a[129][129];
