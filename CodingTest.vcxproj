@@ -173,6 +173,7 @@
     <ClCompile Include="07. BackTracking\baekjoon15650.cpp" />
     <ClCompile Include="07. BackTracking\baekjoon6603.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon11729.cpp" />
+    <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2630.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
