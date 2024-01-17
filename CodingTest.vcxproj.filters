@@ -52,6 +52,7 @@
     <ClCompile Include="00. ETC\03. Baekjoon4386\Baekjoon4386.cpp" />
     <ClCompile Include="02. DP\00. Programmers\source3.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon11729.cpp" />
+    <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2630.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
