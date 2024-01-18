@@ -3,6 +3,7 @@
 #include <iostream>
 #include <queue>
 #include <vector>
+#include <stack>
 using namespace std;
 
 vector<int> Node[1001];
@@ -11,6 +12,8 @@ int n, m, v;
 
 void DFS(int curNode)
 {
+	#pragma region VER. ¿Á±Õ
+
 	if (visited[curNode]) return;
 
 	visited[curNode] = true;
@@ -22,6 +25,28 @@ void DFS(int curNode)
 		if (visited[nextNode]) continue;
 		DFS(nextNode);	// ¿Á±Õ
 	}
+	#pragma endregion
+
+	#pragma region VER. Ω∫≈√
+	//stack<int> st;
+	//st.push(curNode);
+	//visited[curNode] = true;
+	//cout << curNode << " ";
+
+	//while (st.size())
+	//{
+	//	int cur = st.top(); st.pop();
+	//	for (int i = 0; i < Node[cur].size(); i++)
+	//	{
+	//		int nextNode = Node[cur][i];
+	//		if (visited[nextNode]) continue;
+
+	//		cout << nextNode << " ";
+	//		visited[nextNode] = true;
+	//		st.push(nextNode);
+	//	}
+	//}
+	#pragma endregion
 }
 void BFS(int curNode)
 {
