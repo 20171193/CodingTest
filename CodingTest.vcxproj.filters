@@ -62,6 +62,7 @@
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon13975.cpp" />
     <ClCompile Include="00. ETC\DFSandBFS.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1914ing.cpp" />
+    <ClCompile Include="00. ETC\Baekjoon15922.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
