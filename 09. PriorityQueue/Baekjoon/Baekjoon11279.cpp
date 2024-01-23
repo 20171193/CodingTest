@@ -1,4 +1,4 @@
-// 백준 1927번 최대 힙
+// 백준 11279번 최대 힙
 #include <iostream>
 #include <queue>
 #include <vector>
