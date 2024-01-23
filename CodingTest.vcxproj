@@ -158,6 +158,7 @@
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11279.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11286.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon13904.cpp" />
+    <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon13975.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon1927.cpp" />
     <ClCompile Include="09. PriorityQueue\Programmers\source1.cpp" />
     <ClCompile Include="04. Stack and Queue\01. Programmers\source01.cpp" />
