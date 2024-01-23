@@ -135,6 +135,7 @@
     <ClCompile Include="00. ETC\00. Programmers\source6.cpp" />
     <ClCompile Include="00. ETC\02. Baekjoon11047\Baekjoon11047.cpp" />
     <ClCompile Include="00. ETC\03. Baekjoon4386\Baekjoon4386.cpp" />
+    <ClCompile Include="00. ETC\DFSandBFS.cpp" />
     <ClCompile Include="01. GraphSearch\00. Programmers\source1.cpp" />
     <ClCompile Include="01. GraphSearch\01. Baekjoon 1260\Baekjoon1260.cpp" />
     <ClCompile Include="01. GraphSearch\08. Baekjoon 14503\Baekjoon14503.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="02. DP\01. Baekjoon 2666\Baekjoon2666.cpp" />
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
+    <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1914ing.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11279.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11286.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon13904.cpp" />
