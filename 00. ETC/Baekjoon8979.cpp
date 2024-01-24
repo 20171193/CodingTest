@@ -1,5 +1,3 @@
-// 백준 11403번 올림픽
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
