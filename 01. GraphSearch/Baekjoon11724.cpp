@@ -2,15 +2,16 @@
 
 // 영역의 개수 구하기 - bfs탐색
 #include <iostream>
+#include <vector>
 #include <queue>
 using namespace std;
 
-int n, m, u, v, ret, a[1001][1001], visited[1001];
-
+int n, m, u, v, ret, visited[1001];
+vector<vector<int>> vec(1001);
 void bfs()
 {
 	queue<int> q;
-	for (int i = 1; i < n; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		if (!visited[i])
 		{
@@ -21,14 +22,13 @@ void bfs()
 			{
 				int temp = q.front(); q.pop();
 
-				for (int i = 0; i < n; i++)
+				for (int j = 0; j < vec[temp].size(); j++)
 				{
-					if (i == temp) continue;
-					if (visited[i]) continue;
-					if (!a[temp][i]) continue;
+					if (visited[vec[temp][j]]) continue;
+					if (!vec[temp][j]) continue;
 
-					visited[i] = 1;
-					q.push(i);
+					visited[vec[temp][j]] = 1;
+					q.push(vec[temp][j]);
 				}
 			}
 		}
@@ -41,10 +41,12 @@ int main()
 	for (int i = 0; i < m; i++)
 	{
 		cin >> u >> v;
-		a[u][v] = 1;
-		a[v][u] = 1;
+		vec[u].push_back(v);
+		vec[v].push_back(u);
 	}
+
 	bfs();
+
 	cout << ret << '\n';
 	return 0;
 }
