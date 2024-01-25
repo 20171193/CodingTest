@@ -160,6 +160,7 @@
     <ClCompile Include="02. DP\01. Baekjoon 2666\Baekjoon2666.cpp" />
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
+    <ClCompile Include="07. BackTracking\Baekjoon15652.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon9663.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1914ing.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11279.cpp" />
