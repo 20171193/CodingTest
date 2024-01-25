@@ -66,6 +66,7 @@
     <ClCompile Include="01. GraphSearch\Baekjoon1652.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon9663.cpp" />
     <ClCompile Include="00. ETC\Baekjoon8979.cpp" />
+    <ClCompile Include="01. GraphSearch\BOJ-1388.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
