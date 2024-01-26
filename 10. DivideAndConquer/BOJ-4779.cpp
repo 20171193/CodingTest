@@ -22,7 +22,6 @@ void DivideAndConquer(int startPos, int n, bool isSpace, string& str)
 	{
 		return;
 	}
-
 	if (isSpace)
 	{
 		for (int i = startPos; i < startPos + n; i++)
@@ -30,7 +29,6 @@ void DivideAndConquer(int startPos, int n, bool isSpace, string& str)
 			str[i] = ' ';
 		}
 	}
-
 	DivideAndConquer(startPos, n / 3, false, str);
 	DivideAndConquer(startPos + n / 3, n / 3, true, str);
 	DivideAndConquer(startPos + n / 3 * 2, n / 3, false, str);
@@ -38,6 +36,9 @@ void DivideAndConquer(int startPos, int n, bool isSpace, string& str)
 
 int main()
 {
+	cin.tie(NULL);						// 입출력 연결 해제 (입출력 반복 시 시간 단축)
+	ios_base::sync_with_stdio(false);	// stio와 iostream 동기화를 비활성화 (버퍼 공유 해제)
+
 	int n = -1;
 	while (1)
 	{
