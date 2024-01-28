@@ -187,6 +187,9 @@
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2447.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1992.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2630.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-11582.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-4779.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-5904.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
