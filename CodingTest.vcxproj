@@ -192,6 +192,7 @@
     <ClCompile Include="10. DivideAndConquer\BOJ-11582.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-21870.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-4779.cpp" />
+    <ClCompile Include="10. DivideAndConquer\PGM-QuadCompressionAndCount.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
