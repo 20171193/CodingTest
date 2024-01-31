@@ -163,6 +163,7 @@
     <ClCompile Include="07. BackTracking\Baekjoon15652.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon9663.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1914ing.cpp" />
+    <ClCompile Include="08. Recursion\Baekjoon\PGM-Fatigue.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11279.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon11286.cpp" />
     <ClCompile Include="09. PriorityQueue\Baekjoon\Baekjoon13904.cpp" />
@@ -193,6 +194,7 @@
     <ClCompile Include="10. DivideAndConquer\BOJ-21870.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-4779.cpp" />
     <ClCompile Include="10. DivideAndConquer\PGM-QuadCompressionAndCount.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-5904.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
