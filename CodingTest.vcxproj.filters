@@ -74,6 +74,7 @@
     <ClCompile Include="10. DivideAndConquer\PGM-QuadCompressionAndCount.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-5904.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\PGM-Fatigue.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-30406.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
