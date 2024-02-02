@@ -76,7 +76,7 @@
     <ClCompile Include="08. Recursion\Baekjoon\PGM-Fatigue.cpp" />
     <ClCompile Include="03. Greedy\BOJ-30406.cpp" />
     <ClCompile Include="03. Greedy\BOJ-11000.cpp" />
-    <ClCompile Include="03. Greedy\BOJ-12904-ing.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-12904.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
