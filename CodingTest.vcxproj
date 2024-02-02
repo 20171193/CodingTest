@@ -161,7 +161,7 @@
     <ClCompile Include="03. Greedy\00. Programmers\source1.cpp" />
     <ClCompile Include="03. Greedy\01. Baekjoon 17822\Baekjoon17822ing.cpp" />
     <ClCompile Include="03. Greedy\BOJ-11000.cpp" />
-    <ClCompile Include="03. Greedy\BOJ-12904-ing.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-12904.cpp" />
     <ClCompile Include="03. Greedy\BOJ-30406.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon15652.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon9663.cpp" />
