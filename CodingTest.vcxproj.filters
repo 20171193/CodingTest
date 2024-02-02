@@ -78,6 +78,7 @@
     <ClCompile Include="03. Greedy\BOJ-11000.cpp" />
     <ClCompile Include="03. Greedy\BOJ-12904.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-2630.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-10897-ing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

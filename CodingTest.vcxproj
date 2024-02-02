@@ -193,6 +193,7 @@
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2447.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1992.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon2630.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-10897-ing.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-11582.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-21870.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-2630.cpp" />
