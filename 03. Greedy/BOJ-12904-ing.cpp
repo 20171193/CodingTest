@@ -12,7 +12,9 @@
 // S를 T로 만들 수 있는지?
 
 //     dp 풀이 - 시간초과
-// 그리디 풀이 - 
+// 그리디 풀이
+//				메모리 : 2024KB
+//				  시간 : 0ms
 
 #include <iostream>
 #include <queue>
