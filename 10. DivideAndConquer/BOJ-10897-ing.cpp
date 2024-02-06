@@ -1,3 +1,16 @@
+// 백준 10897번 Inherited disease
+//
+// D세대의 정민이 자식을 낳으면 그 자식은 D + 1 세대
+//
+// 세대 별 자식 수
+// 0 = 1
+// 1 = 2
+// 2 = 6
+// 3 =
+// if n > 0
+// s(n) = n + 1 * s(n - 1)
+
+
 #include <iostream>
 using namespace std;
 
