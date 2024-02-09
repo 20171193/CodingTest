@@ -80,6 +80,7 @@
     <ClCompile Include="03. Greedy\BOJ-1049.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-2630.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-10897-ing.cpp" />
+    <ClCompile Include="10. DivideAndConquer\BOJ-1780.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
