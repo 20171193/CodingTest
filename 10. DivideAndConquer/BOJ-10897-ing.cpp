@@ -1,12 +1,13 @@
-// ¹éÁØ 10897¹ø Inherited disease
+// ë°±ì¤€ 10897ë²ˆ Inherited disease
+
+// Dì„¸ëŒ€ì˜ ì •ë¯¼ì´ ìì‹ì„ ë‚³ìœ¼ë©´ ê·¸ ìì‹ì€ D + 1 ì„¸ëŒ€
 //
-// D¼¼´ëÀÇ Á¤¹ÎÀÌ ÀÚ½ÄÀ» ³ºÀ¸¸é ±× ÀÚ½ÄÀº D + 1 ¼¼´ë
-//
-// ¼¼´ë º° ÀÚ½Ä ¼ö
+// ì„¸ëŒ€ ë³„ ìì‹ ìˆ˜
 // 0 = 1
 // 1 = 2
 // 2 = 6
 // 3 =
+
 // if n > 0
 // s(n) = n + 1 * s(n - 1)
 
@@ -19,15 +20,15 @@ typedef long long ll;
 const int MOD_NUMBER = 1000000007;
 int d, di[101];
 
-//       number : ÇöÀç ¼¼´ë¿¡ ºÎ¿©µÇ´Â ¹øÈ£
-//            k : ¼¼´ë (·¹º§)
-//    parentCnt : ºÎ¸ğÀÇ ¼ö
-// parentNumber : ÀÌÀü ¼¼´ë¿¡¼­ ºÎ¸ğ°¡ ¸î¹øÂ° ÀÚ½ÄÀÌ¾ú´ÂÁö
+//       number : í˜„ì¬ ì„¸ëŒ€ì— ë¶€ì—¬ë˜ëŠ” ë²ˆí˜¸
+//            k : ì„¸ëŒ€ (ë ˆë²¨)
+//    parentCnt : ë¶€ëª¨ì˜ ìˆ˜
+// parentNumber : ì´ì „ ì„¸ëŒ€ì—ì„œ ë¶€ëª¨ê°€ ëª‡ë²ˆì§¸ ìì‹ì´ì—ˆëŠ”ì§€
 void go(int number, int k, int parentCnt, int parentNumber)
 {
 	if (k >= d) return;
 
-	// kÀÇ di[k]¹øÂ° ÀÚ½Ä Ã£±â
+	// kì˜ di[k]ë²ˆì§¸ ìì‹ ì°¾ê¸°
 	// s(n) = n+1 * s(n-1)
 	if (k == 0)
 	{
@@ -36,12 +37,12 @@ void go(int number, int k, int parentCnt, int parentNumber)
 	}
 	else
 	{
-		ll childCnt = (parentCnt * (k + 1)) % MOD_NUMBER;				            // k¼¼´ëÀÇ ÃÑ ÀÚ½ÄÀÇ ¼ö
-		ll childPerParent = k <= 1 ? 1 : (childCnt / parentCnt) % MOD_NUMBER;		// ÃÑ ÀÚ½ÄÀÇ ¼ö / ºÎ¸ğÀÇ ¼ö = °¢ ºÎ¸ğ¿¡ ¼ÓÇÑ ÀÚ½ÄÀÇ ¼ö
+		ll childCnt = (parentCnt * (k + 1)) % MOD_NUMBER;				            // kì„¸ëŒ€ì˜ ì´ ìì‹ì˜ ìˆ˜
+		ll childPerParent = k <= 1 ? 1 : (childCnt / parentCnt) % MOD_NUMBER;		// ì´ ìì‹ì˜ ìˆ˜ / ë¶€ëª¨ì˜ ìˆ˜ = ê° ë¶€ëª¨ì— ì†í•œ ìì‹ì˜ ìˆ˜
 
-		// ¸î¹øÂ° ºÎ¸ğÀÇ ¸î¹øÂ° ÀÚ½ÄÀÎÁö?
-		// ºÎ¸ğ : parentNumber
-		// ÀÚ½Ä : childPerParent * (parentNumber-1) + di[k]
+		// ëª‡ë²ˆì§¸ ë¶€ëª¨ì˜ ëª‡ë²ˆì§¸ ìì‹ì¸ì§€?
+		// ë¶€ëª¨ : parentNumber
+		// ìì‹ : childPerParent * (parentNumber-1) + di[k]
 		ll result = (number + childPerParent * (parentNumber - 1) + di[k]) % MOD_NUMBER;
 
 		cout << result << '\n';
