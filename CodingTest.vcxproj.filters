@@ -82,6 +82,7 @@
     <ClCompile Include="10. DivideAndConquer\BOJ-10897-ing.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-1780.cpp" />
     <ClCompile Include="10. DivideAndConquer\BOJ-1992.cpp" />
+    <ClCompile Include="00. ETC\PGM-Magic_Elevator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
