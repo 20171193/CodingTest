@@ -166,6 +166,7 @@
     <ClCompile Include="03. Greedy\BOJ-12904.cpp" />
     <ClCompile Include="03. Greedy\BOJ-30406.cpp" />
     <ClCompile Include="03. Greedy\PGM-HotelRoomRental.cpp" />
+    <ClCompile Include="03. Greedy\PGM-MenuRenewal.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon15652.cpp" />
     <ClCompile Include="07. BackTracking\Baekjoon9663.cpp" />
     <ClCompile Include="08. Recursion\Baekjoon\Baekjoon1914ing.cpp" />

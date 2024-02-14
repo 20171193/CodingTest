@@ -84,6 +84,7 @@
     <ClCompile Include="10. DivideAndConquer\BOJ-1992.cpp" />
     <ClCompile Include="00. ETC\PGM-Magic_Elevator.cpp" />
     <ClCompile Include="03. Greedy\PGM-HotelRoomRental.cpp" />
+    <ClCompile Include="03. Greedy\PGM-MenuRenewal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
