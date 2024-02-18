@@ -164,6 +164,7 @@
     <ClCompile Include="03. Greedy\BOJ-1049.cpp" />
     <ClCompile Include="03. Greedy\BOJ-11000.cpp" />
     <ClCompile Include="03. Greedy\BOJ-12904.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-2212ing.cpp" />
     <ClCompile Include="03. Greedy\BOJ-30406.cpp" />
     <ClCompile Include="03. Greedy\PGM-HotelRoomRental.cpp" />
     <ClCompile Include="03. Greedy\PGM-MenuRenewal.cpp" />
