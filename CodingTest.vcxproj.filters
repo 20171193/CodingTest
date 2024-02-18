@@ -85,6 +85,8 @@
     <ClCompile Include="00. ETC\PGM-Magic_Elevator.cpp" />
     <ClCompile Include="03. Greedy\PGM-HotelRoomRental.cpp" />
     <ClCompile Include="03. Greedy\PGM-MenuRenewal.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-2212ing.cpp" />
+    <ClCompile Include="03. Greedy\BOJ-1715.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
