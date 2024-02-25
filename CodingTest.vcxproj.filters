@@ -88,6 +88,7 @@
     <ClCompile Include="03. Greedy\BOJ-2212.cpp" />
     <ClCompile Include="03. Greedy\BOJ-1715.cpp" />
     <ClCompile Include="03. Greedy\BOJ-1339-ing.cpp" />
+    <ClCompile Include="01. GraphSearch\BOJ-11725.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
