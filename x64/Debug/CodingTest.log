@@ -1,9 +1,6 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source1.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 05. Bitmasking\01. Programmers\source1.cpp, 06. Map\01. Programmers\source1.cpp입니다.
-  Baekjoon3474.cpp
-C:\Users\SHIMNALDO\source\repos\codingtest\CodingTest\01. GraphSearch\06. Baekjoon 3474\Baekjoon3474.cpp(38,3): error C2059: 구문 오류: '}'
-  Baekjoon2609.cpp
-  source02ing.cpp
-  source1.cpp
-C:\Users\SHIMNALDO\source\repos\codingtest\CodingTest\05. Bitmasking\01. Programmers\source1.cpp(8,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  source1.cpp
-  코드를 생성하고 있습니다...
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source1.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 00. ETC\00. Programmers\source1.cpp, 01. GraphSearch\00. Programmers\source1.cpp, 03. Greedy\00. Programmers\source1.cpp, 09. PriorityQueue\Programmers\source1.cpp, 05. Bitmasking\01. Programmers\source1.cpp, 06. Map\01. Programmers\source1.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source2.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 00. ETC\00. Programmers\source2.cpp, 05. Bitmasking\01. Programmers\source2.cpp, 06. Map\01. Programmers\source2.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source3.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 00. ETC\00. Programmers\source3.cpp, 02. DP\00. Programmers\source3.cpp, 04. Stack and Queue\01. Programmers\source3.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source4.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 00. ETC\00. Programmers\source4.cpp, 04. Stack and Queue\01. Programmers\source4.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1101,5): warning MSB8027: 이름이 source5.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 00. ETC\00. Programmers\source5.cpp, 04. Stack and Queue\01. Programmers\source5.cpp입니다.
+  BOJ-11000.cpp
